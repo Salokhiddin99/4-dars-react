@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.xmark{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    cursor: pointer;
+    font-size: 25px;
+    color: 	#696969;
+}
+.checkicon{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: opacity .3s ease
+}
+.checkicon-active{
+    opacity: 1;
+}
+
